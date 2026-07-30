@@ -1,4 +1,4 @@
-# ITAI1378-midterm-group8
+# ITAI1378-capstone-group8
 
 ## Backyard Bird Identification using Computer Vision
 
