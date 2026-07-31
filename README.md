@@ -12,7 +12,9 @@ https://drive.google.com/drive/folders/1Az2sX6fY5jJ2O6aMfUaFZ2xWbRjn2rWM?usp=sha
 
 ## Proposal
 
-Tier 2 Project, using a multi-model detection and classification pipeline
+Tier 2 Project, using a multi-model detection and classification pipeline.
+
+Tier 2 justification: Our CV pipeline uses a multi-model approach, with a detection step feeding into a classification step.
 
 #### Problem
 
@@ -35,9 +37,23 @@ Custom trained model dataset sources:​
  2000 images, labels for bounding box, Intended to replace YOLO11Large as a custom initial detection model​
 ​
 
- LaSBiRD dataset through IEEE Dataport: https://ieee-dataport.org/documents/lasbird-large-scale-bird-recognition-dataset​
+Custom classification model dataset
 
- 5M images, labelled by species, Intended to train the species classifier model
+Collected species images from pixabay.com, approx. 500 images of each.
+
+https://pixabay.com/images/search/american%20robin/
+
+https://pixabay.com/images/search/blue%20jay/
+
+https://pixabay.com/images/search/downy%20woodpecker/
+
+https://pixabay.com/images/search/house%20finch/
+
+https://pixabay.com/images/search/mourning%20dove/
+
+https://pixabay.com/images/search/northern%20cardinal/
+
+https://pixabay.com/photos/search/red%20bellied%20woodpecker/
 
 #### Success Metrics
 
